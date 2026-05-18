@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">⚡</span><span class="brand-name">Back to Home</span></a>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container card">
+      <h1 class="card-title">Privacy Policy</h1>
+      <p class="muted">Last updated: <span id="d"></span></p>
+
+      <p>This website is a simple informational site for our store. We may collect limited information when you submit an enquiry form (name, phone, message). This information is used only to respond to your enquiry.</p>
+
+      <h2>Enquiry form</h2>
+      <p>If the enquiry form is enabled, it uses a third‑party form service (example: Formspree). Your form submission is processed by that provider as well.</p>
+
+      <h2>Cookies & analytics</h2>
+      <p>By default, this template does not use analytics or tracking cookies. If you add analytics later, update this page accordingly.</p>
+
+      <h2>Contact</h2>
+      <p>If you have questions about this policy, contact us using the details on the Contact section of the home page.</p>
+    </div>
+  </main>
+
+  <script>
+    document.getElementById('d').textContent = new Date().toISOString().slice(0,10);
+  </script>
+</body>
+</html>

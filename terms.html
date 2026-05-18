@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Terms of Use</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">⚡</span><span class="brand-name">Back to Home</span></a>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container card">
+      <h1 class="card-title">Terms of Use</h1>
+      <p class="muted">Last updated: <span id="d"></span></p>
+
+      <p>This website provides general information about our store, products, pricing, and services. Availability and prices may change without notice.</p>
+
+      <h2>Product information</h2>
+      <p>Brand names and trademarks belong to their respective owners. Photos shown may be illustrative unless explicitly stated otherwise.</p>
+
+      <h2>Liability</h2>
+      <p>We try to keep information accurate, but we do not guarantee completeness or suitability. Please confirm details on call/WhatsApp before purchase.</p>
+    </div>
+  </main>
+
+  <script>
+    document.getElementById('d').textContent = new Date().toISOString().slice(0,10);
+  </script>
+</body>
+</html>
